@@ -15,7 +15,7 @@ $(document).ready(function (){
                    
 
                     var promptString = prompt("Enter your number in the box below");
-                    var promptNo = parseInt(promptString);
+                    var promptNo = +(promptString);
                     var fizzbuzz = function (inputNo){
 	     
 	                   var inputNo = promptNo
